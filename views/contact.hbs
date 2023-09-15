@@ -1,0 +1,10 @@
+{{!-- to map through in mingodb, the each function is the best to use --}}
+
+THE CONTACT PAGE
+{{#each phones}}
+    <li>{{this}}</li>
+{{/each}}
+
+{{#each users}}
+    <li>{{this.id}} {{this.name}}</li>
+{{/each}}
